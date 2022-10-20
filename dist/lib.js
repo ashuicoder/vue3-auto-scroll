@@ -746,9 +746,9 @@ const gt = /* @__PURE__ */ Pe({
     const n = r, a = Z(null), t = Z(null), u = Z(0), h = Z(0), l = Z(0);
     let i = null, f = null;
     const d = () => {
-      i && clearTimeout(i), f && cancelAnimationFrame(f), u.value = a.value.clientHeight, h.value = t.value.clientHeight, i = setTimeout(() => {
+      i && clearTimeout(i), f && cancelAnimationFrame(f), u.value = a.value.clientHeight, h.value = t.value.clientHeight, !(h.value < u.value) && (i = setTimeout(() => {
         b();
-      }, n.delay), n.control && g();
+      }, n.delay), n.control && g());
     }, g = () => {
       var L, w;
       (L = a.value) == null || L.addEventListener("mouseenter", T), (w = a.value) == null || w.addEventListener("mouseleave", O);
@@ -807,7 +807,7 @@ const pt = (r, n) => {
   for (const [t, u] of n)
     a[t] = u;
   return a;
-}, de = /* @__PURE__ */ pt(gt, [["__scopeId", "data-v-8f121b61"]]);
+}, de = /* @__PURE__ */ pt(gt, [["__scopeId", "data-v-04a58be4"]]);
 de.name = "vue3-auto-scroll";
 const yt = (r) => {
   r.component(de.name, de);
