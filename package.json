@@ -8,12 +8,18 @@
   "types": "./dist/packages/vue3-auto-scroll/index.d.ts",
   "keywords": [
     "vue3",
-    "typescript"
+    "typescript",
+    "auto-scroll"
   ],
+  "description": "a auth scroll component with vue3, support typescript",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashuicoder/vue3-auto-scroll"
   },
   "dependencies": {
     "element-resize-detector": "^1.2.4",
