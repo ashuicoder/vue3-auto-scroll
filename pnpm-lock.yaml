@@ -9,11 +9,12 @@ specifiers:
   vite-plugin-dts: ^1.6.6
   vue: ^3.2.37
   vue-tsc: ^0.40.4
-  vue3-auto-scroll: ^1.0.12
+  vue3-auto-scroll: ^1.0.13
 
 dependencies:
   element-resize-detector: 1.2.4
   vue: 3.2.40
+  vue3-auto-scroll: 1.0.13
 
 devDependencies:
   '@vitejs/plugin-vue': 3.1.2_vite@3.1.8+vue@3.2.40
@@ -22,7 +23,6 @@ devDependencies:
   vite: 3.1.8_sass@1.55.0
   vite-plugin-dts: 1.6.6_vite@3.1.8
   vue-tsc: 0.40.13_typescript@4.8.4
-  vue3-auto-scroll: 1.0.12
 
 packages:
 
@@ -338,6 +338,7 @@ packages:
 
   /batch-processor/1.0.0:
     resolution: {integrity: sha512-xoLQD8gmmR32MeuBHgH0Tzd5PuSZx71ZsbhVxOCRbgktZEPe4SQy7s9Z50uPp0F/f7iw2XmkHN2xkgbMfckMDA==}
+    dev: false
 
   /binary-extensions/2.2.0:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
@@ -406,6 +407,7 @@ packages:
     resolution: {integrity: sha512-Fl5Ftk6WwXE0wqCgNoseKWndjzZlDCwuPTcoVZfCP9R3EHQF8qUtr3YUPNETegRBOKqQKPW3n4kiIWngGi8tKg==}
     dependencies:
       batch-processor: 1.0.0
+    dev: false
 
   /esbuild-android-64/0.15.10:
     resolution: {integrity: sha512-UI7krF8OYO1N7JYTgLT9ML5j4+45ra3amLZKx7LO3lmLt1Ibn8t3aZbX5Pu4BjWiqDuJ3m/hsvhPhK/5Y/YpnA==}
@@ -1069,12 +1071,12 @@ packages:
       '@vue/server-renderer': 3.2.40_vue@3.2.40
       '@vue/shared': 3.2.40
 
-  /vue3-auto-scroll/1.0.12:
-    resolution: {integrity: sha512-BvADciqdWef14fI9nwfmlzXIpm6nVOC1RTQzmZ7qH6BF1U0Owh27rPESrZFL1Ni+nYMJuWrbcDe/Nr1avTzgpg==}
+  /vue3-auto-scroll/1.0.13:
+    resolution: {integrity: sha512-0WcPLXvVMQg+kZiTuNuIENwf1skDL8gYnR0BC2yyQAnNZKYiV/2+77ItDfd/EOayP0AAy5nV8s/hHnBNR1Vt5w==}
     dependencies:
       element-resize-detector: 1.2.4
       vue: 3.2.40
-    dev: true
+    dev: false
 
   /yallist/4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
